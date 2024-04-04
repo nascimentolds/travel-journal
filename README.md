@@ -28,8 +28,8 @@ This is a solution to the [Travel Journal solo project on Scrimba](https://scrim
 
 ### Links
 
-- Live Site URL: [@Vercel](https://#)
-- Solution URL: [@GitHub](https://#)
+- Live Site URL: [@Vercel](https://travel-journal-solo-project.vercel.app/)
+- Solution URL: [@GitHub](https://github.com/nascimentolds/travel-journal)
 
 ### Getting Started with Vite
 
