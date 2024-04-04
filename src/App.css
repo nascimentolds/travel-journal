@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #FFFFFF;
+  padding: 25px;
+}
+
+.header--title {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.globe {
+  font-size: 35px;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  color: #2B283A;
+  font-size: 12px;
+  padding-bottom: 30px;
+}
+
+.card--list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  padding: 60px;
+}
+
+.card--image {
+  width: 142px;
+  height: 193px;
+  border-radius: 5px;
+}
+
+.card--description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.card--icon {
+  color: #F55A5A;
+  width: 10px;
+}
+
+.card--location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card--link {
+  margin-left: 5px;
+  color: #918E9B;
+}
+
+.card--link:hover, .card--link:active, .card--link:visited {
+  color: #918E9B;
+}
+
+.card--loc {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.card--title {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.card--line {
+  border-bottom: 1px solid #DADADA;
+}
+
+@media (max-width: 450px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card--image {
+    width: 100%;
+    border-radius: 5px;
+  }
+}
